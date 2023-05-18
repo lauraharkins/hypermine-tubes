@@ -1,8 +1,8 @@
 {
 	"schemaVersion": 1,
-	"id": "template-mod",
+	"id": "hyperminetubes-mod",
 	"version": "${version}",
-	"name": "Template Mod",
+	"name": "Hypermine Tubes Mod",
 	"description": "This is an example description! Tell everyone what your mod is about!",
 	"authors": [
 		"Me!"
@@ -12,20 +12,20 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/template-mod/icon.png",
+	"icon": "assets/hyperminetubes-mod/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"laura.template.ExampleMod"
+			"laura.hyperminetubes.ExampleMod"
 		],
 		"client": [
-			"laura.template.ExampleModClient"
+			"laura.hyperminetubes.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"template-mod.mixins.json",
+		"hyperminetubes-mod.mixins.json",
 		{
-			"config": "template-mod.client.mixins.json",
+			"config": "hyperminetubes-mod.client.mixins.json",
 			"environment": "client"
 		}
 	],
